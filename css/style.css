@@ -7,17 +7,9 @@
     box-sizing: border-box;
 }
 
-body {
-    background: #fff;
-    min-height: 100vh;
-    width: 100%;
-    color: #fff;
-    position: relative;
-}
-
 a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 li {
@@ -29,7 +21,10 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #470052;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100vw;
 }
 
 .logo {
@@ -44,9 +39,13 @@ nav {
 }
 
 .menu li:hover {
-    background-color: black;
+    background-color: #a34ec2;
     border-radius: 10px;
     transition: 0.3s ease;
+}
+
+.menu li:hover a {
+    color: #fff;
 }
 
 .menu li {
@@ -64,20 +63,28 @@ input[type=checkbox] {
     user-select: none;
 }
 
+p {
+    padding-top: 9px;
+}
+
 @media (max-width: 1120px) {
+    nav {
+        position: static;
+    }
+
     .menu {
         display: none;
         position: absolute;
-        background-color: #470052;
         right: 0;
         left: 0;
         text-align: center;
         padding: 16px 0;
+        background-color: #fff;
     }
 
     .menu li:hover {
         display: inline-block;
-        background-color: aquamarine;
+        background-color: #a34ec2;
         transition: 0.3s ease;
     }
 
@@ -91,5 +98,6 @@ input[type=checkbox] {
 
     .hamburger {
         display: block;
+        color: #000;
     }
 }
