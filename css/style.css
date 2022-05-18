@@ -65,7 +65,7 @@ input[type=checkbox] {
 }
 
 p {
-    padding-top: 90px;
+    padding-top: 88px;
 }
 
 @media (max-width: 1120px) {
@@ -100,5 +100,9 @@ p {
     .hamburger {
         display: block;
         color: #000;
+    }
+
+    p {
+        padding-top: 0;
     }
 }
