@@ -66,6 +66,9 @@ input[type=checkbox] {
 
 p {
     padding-top: 88px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 @media (max-width: 1120px) {
