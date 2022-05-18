@@ -81,6 +81,7 @@ p {
         padding: 16px 0;
         background-color: #dedede;
         width: 200px;
+        border-radius: 10px;
     }
 
     .menu li:hover {
