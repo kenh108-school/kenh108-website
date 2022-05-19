@@ -25,6 +25,8 @@ nav {
     position: fixed;
     top: 0;
     width: 100vw;
+    border-bottom-style: solid;
+    border-color: #dedede;
 }
 
 .logo {
@@ -65,7 +67,7 @@ input[type=checkbox] {
 }
 
 p {
-    padding-top: 88px;
+    padding-top: 100px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
